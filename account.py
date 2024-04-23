@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
 import random
 
-
 class Account(ABC):
     def __init__(self, agency: int, balance: float):
         self.agency = agency
@@ -82,29 +81,5 @@ class Checking_account(Account):
                
 
    
-
-# if __name__ == '__main__':
-#     contacorrente = Checking_account(123,1000)
-#     # contacorrente.withdraw(1134)
-
-#     contapoupanca = Savings_account(111,1000)
-#     # contapoupanca.withdraw(100.23)
-#     # contapoupanca.withdraw(10002)
-
-#     c1 = Checking_account(123,1000)
-#     c2 = Savings_account(456, 2000)
-#     c3 = Savings_account(789, 30939)
-#     c4 = Savings_account(987, 40939)
-
-#     # print(contapoupanca)
-
-#     print(c1)
-#     print(c1)
-#     print(c2)
-#     print(c2)
-#     print(c3)
-#     print(c3)
-#     print(c4)
-#     print(c4)
 
 
